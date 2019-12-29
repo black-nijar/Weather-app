@@ -1,7 +1,8 @@
 .app-name {
   text-align: center;
   color: rgb(56, 170, 170);
-  font-size: 1cm
+  font-size: 1cm;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 .app{
   text-align: center;
