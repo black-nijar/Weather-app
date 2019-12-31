@@ -2,10 +2,12 @@
   text-align: center;
   color: rgb(56, 170, 170);
   font-size: 1cm;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .app{
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.weather-detail {
+  margin-bottom: 4em;
 }

@@ -1,18 +1,22 @@
-import { WEATHER_DETAILS, WEATHER_ICONS } from "../actions/actionTypes";
+import { WEATHER_DETAILS, WEATHER_ICONS, HANDLE_ERROR } from "../actions/actionTypes";
 
 const initState = []
 
 export const weatherReducer = (state = initState, action) => {
   switch (action.type) {
     case WEATHER_DETAILS:
-      return action.weather; 
+      return action.weather;
 
     case WEATHER_ICONS:
-      return  {
+      return {
         ...state,
-      'weatherIcon':  action.icon
+        'weatherIcon': action.icon
       }
-
+    case HANDLE_ERROR:
+      return {
+        ...state,
+        error: true
+      }
     default:
       return state
   }
